@@ -1,0 +1,27 @@
+INPUT PROBLEMA:
+    -Stringa da riconoscere 'parola'
+    -Contenuto della board
+    -Posizione della prima lettera
+
+SOLUZIONE PARZIALE
+	-Una stringa, la parte della parola che ho già riconosciuto
+	-Elenco delle posizioni delle lettere
+
+SOLUZIONE TOTALE
+	-La parola riconosciuta per intero
+	-Elenco delle posizioni delle lettere
+
+LIVELLO DELLA RICORSIONE
+	-Numero di caratteri riconosciuti (size di parziale)
+	
+CONDIZIONI DI TERMINAZIONE
+	-Livello==lunghezza della parola da riconoscere
+	Se viene trovata la parola, stoppo la ricorsione
+	
+AVVIO DELLA RICORSIONE
+	-trovare manualmente la prima lettera e partire dal livello 1
+	
+STRUTTURE DATI
+	parziale: stringa
+	livello: intero
+	posizioni: lista di pos
